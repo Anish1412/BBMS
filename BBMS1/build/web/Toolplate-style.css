@@ -1,0 +1,244 @@
+/* WHAT WE DO */
+
+#about {
+    background-color: #f4f4f4;
+    padding: 61px 0px;
+}
+
+#about .section-heading {
+    margin-bottom: 58px;
+}
+
+.section-heading h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #121212;
+}
+
+.section-heading .line-dec {
+    width: 60px;
+    height: 3px;
+    background-color: #121212;
+    margin: 0 auto;
+}
+
+.service-item {
+    cursor: pointer;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 14px;
+    transition: all 0.7s;
+    box-shadow: 0px 0px 15px #cdcdcd;
+}
+
+.service-item:hover {
+    background-color:rgba(232, 7, 7, 0.838);
+}
+
+.service-item h2 {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.service-item:hover h2 {
+    color: #fff;
+}
+
+.service-item:hover p {
+    color: #fff;
+}
+
+.first-service h4 {
+    text-align: center;
+}
+
+.first-service p {
+    padding: 10px 10px 2px 10px;
+    font-size: 16px;
+}
+
+.first-service img {
+    margin-top: -1px;
+    margin-left: 0px;
+    height: 202px;
+    width: 396px;
+    display: inline-block;
+}
+
+.second-service h4 {
+    text-align: center;
+}
+
+.second-service p {
+    padding: 10px 10px 1px 10px;
+    font-size: 16px;
+}
+
+.second-service img {
+    margin-top: -1px;
+    margin-left: 0px;
+    height: 202px;
+    width: 397px;
+    display: inline-block;
+}
+
+.third-service h4 {
+    text-align: center;
+}
+
+.third-service p {
+    padding: 10px 10px 0px 10px;
+    font-size: 16px;
+}
+
+.third-service img {
+    margin-top: -1px;
+    margin-left: 0px;
+    height: 202px;
+    width: 397px;
+    display: inline-block;
+}
+
+/* HERO SLIDER */
+
+.slide-caption {
+    color: #fff;
+}
+
+.slide-caption span {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.slide-caption h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.slide-caption p {
+    font-size: 13px;
+    letter-spacing: 0.25px;
+    line-height: 24px;
+}
+
+ul.cd-hero-slider {
+    margin-bottom: 0px!important;
+}
+
+/* FOOTER */
+
+footer {
+    background-color:rgba(232, 7, 7, 0.838);
+    padding: 20px;
+    border-top:0.5px solid black;
+}
+
+footer p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+footer p a {
+    color:#fff;
+    font-weight: 600;
+    text-decoration: underline solid white;
+    margin-left: 10px;
+}
+
+footer p a:hover {
+    color:#fff;
+}
+
+footer em {
+    font-style: normal;
+    font-weight: 700;
+    color: #a2cf8d;
+}
+
+footer ul {
+    margin-top: 15px;
+    float: right;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+footer ul li a {
+    font-size: 16px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+footer ul li a:hover {
+    color: #fff;
+    background-color:black;
+    transition: all 0.5s;
+}
+
+
+@media (max-width: 1015px){
+    .slide-caption .content-caption p {
+        padding: 0 10%;
+    }
+    .service-item {
+        height:530px;
+        margin-bottom: 30px;
+    }
+    #what-we-do .right-image {
+        margin-top: 60px;
+    }
+    #blog .pop {
+        top: 15%;
+        height: 80%;
+        overflow-y: scroll;
+    }
+    .fact-item {
+        margin-bottom: 15px;
+    }
+    .map {
+        margin-bottom: 45px;
+    }
+    footer {
+        text-align: center;
+    }
+    footer ul {
+        float: none;
+    }
+}
+
+@media only screen and (min-width: 1015px){
+    .service-item {
+        height:475px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width:994px){
+    .first-service p {
+        padding: 10px 10px -6px 10px;
+        font-size: 16px;
+    }
+    .second-service p {
+        padding: 10px 10px -1px 10px;
+        font-size: 16px;
+    }
+    .third-service p {
+        padding: 10px 10px 10px 10px;
+        font-size: 16px;
+    }
+}

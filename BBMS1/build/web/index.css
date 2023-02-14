@@ -1,0 +1,30 @@
+body{
+    width: 100%;
+    height: calc(100%);
+}
+main#main{
+    width:100%;
+    height: calc(100%);
+    background:white;
+}
+#login-right{
+    position: absolute;
+    right:0;
+    width:100%;
+    height: calc(100%);
+    display: flex;
+    align-items: center;
+}
+#login-right .card{
+    margin: auto;
+    z-index: 1;
+    font-size:22px;
+}
+div#login-right::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100%);
+    height: calc(100%);
+}

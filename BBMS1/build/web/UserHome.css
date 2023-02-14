@@ -1,0 +1,172 @@
+
+            img{
+                width:200px;
+                height:80px;
+                margin: 4px 0px 4px 8px;
+            }
+            @media only screen and (min-width:414px) and (max-width:992px){
+                img{
+                  width:300px;
+                 }
+            }
+            @media only screen and (min-width:1160px){
+                img{
+                  width:300px;
+                 }
+            }
+            .nav-link{
+                font-family:Times new Roman;
+                margin: 0px 20px 0px 20px;
+                font-size: 20px;
+            }
+            .nav-link:hover{
+                text-shadow: 2px 2px 2px black;
+            }
+            #form1 {
+                font-family: sans-serif;
+            }
+            #form1:hover{
+                text-shadow: 0px 0px 0px black;
+            }
+            #form2 {
+                font-family:sans-serif;
+            }
+            #form2:hover{
+                text-shadow: 0px 0px 0px black;
+            }
+            @media only screen and (min-width:992px){
+                #form1 {
+                   font-family: sans-serif;
+                   margin: 0px 5px 0px 50px;
+                   padding: 7px 12px 7px 12px;
+                }
+                #form2 {
+                   font-family:sans-serif;
+                   margin: 0px 20px 0px 5px;
+                   padding: 7px 12px 7px 12px;
+                }
+            }
+            
+            .carousel-inner {
+                margin-left: -8px;
+                width: 100.5%;
+            }
+            
+            @media only screen and (min-width:320px){
+               .carousel-inner {
+                width:102.3%;
+                }
+            }
+            @media only screen and (min-width:452px){
+               .carousel-inner {
+                width:102%;
+                }
+            }
+            @media only screen and (min-width:524px){
+               .carousel-inner {
+                width:101.5%;
+                }
+            }
+            @media only screen and (min-width:694px){
+               .carousel-inner {
+                width:100.9%;
+                }
+            }
+            @media only screen and (min-width:1021px){
+                .carousel-inner {
+                  width:100.6%;
+                }
+            }
+            @media only screen and (min-width:1516px){
+                .carousel-inner {
+                  width: 100.5%;
+                }
+            }
+            @media only screen and (min-width:1815px){
+                .carousel-inner {
+                  width: 100.4%;
+                }
+            }
+            @media only screen and (min-width:2015px){
+                .carousel-inner {
+                  width: 100.4%;
+                }
+            }
+            .carousel-item > img {
+                width:1500px;
+                height:360px;
+            }
+            .carousel-control-prev-icon {
+                background-color: black;
+                color:white;
+                padding: 22px;
+            }
+            .carousel-control-next-icon{
+                background-color: black;
+                color:white;
+                padding: 22px;
+            }
+            @media only screen and (max-width:475px){
+            .carousel-control-prev-icon {
+                   margin-left: 25px;
+            }
+            .carousel-control-next-icon{
+                margin-right: 10px;
+            }
+            }
+            
+            @media only screen and (min-width:922px){
+            .carousel-item > img {
+                height:407px;
+            }
+            }
+            @media only screen and (min-width:1000px){
+            .carousel-item > img {
+                height:410px;
+            }
+            }
+            @media only screen and (min-width:1066px){
+            .carousel-item > img {
+                height:439px;
+            }
+            }
+            @media only screen and (min-width:1246px){
+            .carousel-item > img {
+                height: 430px;
+            }
+            }
+            @media only screen and (min-width:1516px){
+                .carousel-item > img {
+                    width:1800px;
+                }
+            }
+            @media only screen and (min-width:1815px){
+                .carousel-item > img {
+                    width:2000px;
+                }
+            }
+            @media only screen and (min-width:2015px){
+                .carousel-item > img {
+                    width:2900px;
+                    height: 580px;
+                }
+            }
+
+
+
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

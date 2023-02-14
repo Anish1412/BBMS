@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 11, 2023, 3:40:53 AM
+    Author     : anish
+*/
+
+:root {
+  --white-color:#ffffff; 
+  --primary-color:                #f9c10b;
+  --secondary-color:              #dc3545;
+  --section-bg-color:             #f5f5f5;
+  --dark-color:                   #000000;
+  --p-color:                      #717275;
+
+  --body-font-family:             'DM Sans', sans-serif;
+
+  --h1-font-size:                 60px;
+  --h2-font-size:                 42px;
+  --h3-font-size:                 36px;
+  --h4-font-size:                 32px;
+  --h5-font-size:                 24px;
+  --h6-font-size:                 22px;
+  --p-font-size:                  18px;
+  --menu-font-size:               14px;
+  --copyright-text-font-size:     16px;
+
+  --font-weight-normal:           400;
+  --font-weight-medium:           500;
+  --font-weight-bold:             700;
+}
+
+.contact-container-wrap {
+  background-color:rgba(232, 7, 7, 0.838);
+  padding-bottom: 20px;
+}
+
+.custom-form .form-control {
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 3px solid white;
+  margin-bottom: 24px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  transition: all 0.3s;
+  outline: none;
+  font-size: 17px;
+}
+.form-control::placeholder {
+  color:white;
+}
+
+.custom-form .form-control:hover,
+.custom-form .form-control:focus {
+  background : var(--white-color);
+}
+
+.custom-form button[type="submit"] {
+  background-color: #f9c10b;
+  border-radius: 100px;
+  border: 0;
+  color : var(--white-color);
+  font-weight : var(--font-weight-bold);
+  transition: all 0.3s;
+  margin-bottom: 0;
+}
+
+.custom-form button[type="submit"]:hover,
+.custom-form button[type="submit"]:focus {
+  background : var(--white-color);
+  color : var(--dark-color);
+}
+
+@media screen and (max-width: 991px) {
+    .contact-container-wrap {
+       padding-bottom: 50px;
+    }
+    .contact-form {
+       margin-right: 0;
+       margin-top: 80px;
+       margin-bottom: 50px;
+    }
+    .contact-thumb {
+      bottom: 0;
+      margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width:992px){
+  .contact-thumb {
+    display: none;
+  }
+}
